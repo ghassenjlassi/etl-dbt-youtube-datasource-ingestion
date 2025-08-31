@@ -1,0 +1,8 @@
+dbt-core
+dbt-duckdb
+requests
+pandas
+python-dotenv
+duckdb
+boto3
+google-api-python-client

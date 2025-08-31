@@ -1,0 +1,16 @@
+version: 2
+models:
+  - name: stg_youtube_videos
+    description: "Cleaned YouTube video metadata with derived KPIs"
+    columns:
+      - name: video_id
+        description: "YouTube video ID"
+        tests: [not_null, unique]
+      - name: published_at
+        tests: [not_null]
+      - name: duration_seconds
+        description: "Parsed duration in seconds"
+      - name: engagement_ratio
+        description: "(likes + comments) / views"
+      - name: length_bucket
+        description: "Duration category"

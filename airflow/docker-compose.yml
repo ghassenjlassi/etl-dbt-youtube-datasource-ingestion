@@ -1,0 +1,75 @@
+services:
+  postgres:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWORD: airflow
+      POSTGRES_DB: airflow
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $$POSTGRES_USER"]
+      interval: 5s
+      retries: 5
+
+  airflow-init:
+    build: .
+    command: ["bash", "-c", "airflow db init && airflow users create --username admin --password admin --firstname Air --lastname Flow --role Admin --email admin@example.com || true"]
+    env_file:
+      - ../.env
+    environment:
+      AIRFLOW__CORE__LOAD_EXAMPLES: "False"
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
+    depends_on: [postgres]
+    volumes:
+      - ../:/opt/airflow/dags/repo
+
+  airflow-webserver:
+    build: .
+    command: ["airflow", "webserver"]
+    ports: ["8080:8080"]
+    env_file:
+      - ../.env
+    environment:
+      AIRFLOW__CORE__LOAD_EXAMPLES: "False"
+      AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: "False"
+      AIRFLOW__WEBSERVER__EXPOSE_CONFIG: "True"
+      AIRFLOW__WEBSERVER__DEFAULT_UI_TIMEZONE: "Europe/Paris"
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
+      # pass your envs from project .env via compose
+      YOUTUBE_API_KEY: ${YOUTUBE_API_KEY}
+      CHANNEL_ID: ${CHANNEL_ID}
+      MAX_RESULTS: ${MAX_RESULTS}
+    depends_on: [postgres, airflow-scheduler]
+    volumes:
+      - ../:/opt/airflow/dags/repo
+
+  airflow-scheduler:
+    build: .
+    command: ["airflow", "scheduler"]
+    env_file:
+      - ../.env
+    environment:
+      AIRFLOW__CORE__LOAD_EXAMPLES: "False"
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
+      YOUTUBE_API_KEY: ${YOUTUBE_API_KEY}
+      CHANNEL_ID: ${CHANNEL_ID}
+      MAX_RESULTS: ${MAX_RESULTS}
+    depends_on: [postgres]
+    volumes:
+      - ../:/opt/airflow/dags/repo
+
+  airflow-triggerer:
+    build: .
+    command: ["airflow", "triggerer"]
+    env_file:
+      - ../.env
+    environment:
+      AIRFLOW__CORE__LOAD_EXAMPLES: "False"
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
+    depends_on: [postgres]
+    volumes:
+      - ../:/opt/airflow/dags/repo
+
+volumes:
+  pgdata:

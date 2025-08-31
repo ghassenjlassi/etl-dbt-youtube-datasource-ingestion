@@ -1,0 +1,127 @@
+video_id,channel_id,channel_title,title,description,published_at,duration,tags,default_language,view_count,like_count,comment_count
+H3AVJ6HtNOE,UC_x5XG1OV2P6uZZ5FSM9Ttw,Google for Developers,Task-focused coding agents: The future of software developers,"Focused coding agents can help streamline workflows for developers. However, it’s important to note that deep technical expertise is still needed to use these systems effectively. Watch the full episode to five into task-focused coding agents. 
+
+Watch more People of AI → https://goo.gle/PAI 
+Subscribe to Google for Developers → https://goo.gle/developers
+
+#PeopleofAI
+
+Products Mentioned: Google AI",2025-08-29T04:00:19Z,PT40S,Google|developers|pr_pr: Google AI for Developers;|ct: AIG;|type:Excerpt;|gds:Yes;,en,1031,20,0
+bvfTtLzWVPw,UC_x5XG1OV2P6uZZ5FSM9Ttw,Google for Developers,The evolved developer with Muhammad Farooq,"Meet Muhammad Farooq, a machine learning engineer and a YouTuber on the channel @engineerprompt, where he explains AI concepts and builds his own projects. In this episode of People of AI, hosts Ashley and Christina chat with Muhammad about his journey in tech, his open source project localGPT, and how he's helping organizations deploy scalable AI solutions. 
+
+Chapters:
+0:00 Intro
+3:15 From Ph.D to YouTube Creator
+4:50 First viral YouTube hit
+8:20 RAG and why it matters
+11:20 The origins of localGPT
+15:20 What has changed with building in the last 2 years
+18:35 How AI tools and models have matured
+19:50 Becoming a technical manager to LLMs
+22:20 What agentic coding has enabled Muhammad to build in localGPT 2.0
+27:45 Better maintaining open source projects by leveraging AI
+28:50 What to watch out for when building with agentic systems
+31:20 Advice for junior developers
+35:40 Differences between how junior devs and senior devs use AI tools
+39:19 Specs-driven development
+41:20 Advice for experimenting with AI tools
+42:50 The problem with overly-agreeable LLMs
+45:10 Why long-context windows are useful for coding
+47:30 Advice for someone launching a tech-focused YouTube channel
+51:40 Rapid Fire Questions
+
+Resources:
+@engineerprompt YouTube Channel → https://goo.gle/4m8HCmn 
+localGPT → https://goo.gle/45qwiuH 
+localGPT 2.0 - Building the Best Private RAG System → https://goo.gle/4fwvyJb 
+Muhammad’s website → https://goo.gle/47aHaj9 
+Muhammad on X → https://goo.gle/4lraJjz 
+Measuring the Impact of Early-2025  AI on Experienced Open-Source Developer Productivity → https://goo.gle/4oqVGct 
+
+Watch more People of AI → https://goo.gle/PAI 
+Subscribe to Google for Developers → https://goo.gle/developers
+
+#PeopleofAI
+
+Speaker: Christina Warren, Ashley Oldacre
+Products Mentioned: AI",2025-08-28T23:00:51Z,PT55M31S,Google|developers|pr_pr: Google AI for Developers;|Video Type:Podcast;|ct: AIG;|gds:Yes;,en,1335,53,8
+0H0c1JHqTjg,UC_x5XG1OV2P6uZZ5FSM9Ttw,Google for Developers,Just in from the news desk 📰: Release of Dart 3.9 and Flutter 3.35,"Learn how you can accelerate building multiplatform apps with the new Flutter and Dart releases. These updates put an emphasis on accessibility, creative autonomy over your app, and more! 
+
+Resources:
+Dart → https://goo.gle/4mTBdvd 
+Flutter →https://goo.gle/3JkrGiC 
+
+Subscribe to Google for Developers → https://goo.gle/developers 
+
+#GoogleDeveloperNews
+
+Speaker: Craig Labenz 
+Products Mentioned:  Flutter",2025-08-28T16:00:02Z,PT1M10S,Google|developers|pr_pr: Google for Developers;|Purpose: Influence;|Campaign: ;|Video Type:G4D SV: Educational ;|ct: AIG; ;|gds:Yes;,en,1414,87,1
+DtOeEqasQYs,UC_x5XG1OV2P6uZZ5FSM9Ttw,Google for Developers,Why using DRY (Don’t Repeat Yourself) too early can work against you!,"Premature abstraction is a common mistake when jumping into DRY too early. Clean code may look nice, but premature abstractions become a headache, especially when it’s time to update methods. 
+
+Subscribe to Google for Developers → https://goo.gle/developers 
+
+Speaker: Ethan Hsu",2025-08-28T04:00:29Z,PT34S,Google|developers|pr_pr: Google for Developers;|Purpose: Learn;|Campaign: ;|type:G4D SV: Educational ;|gds:Yes;,en,5143,140,6
+ANpQEc_fWUU,UC_x5XG1OV2P6uZZ5FSM9Ttw,Google for Developers,Evaluate your AI with Stax,"Building with generative AI doesn't have to rely on gut feelings. Discover Stax, an AI evaluation platform designed for product builders. Learn how to turn subjective manual processes into repeatable, data-driven evaluations, and codify the unique qualities that make your AI product special. See how Stax works with a demo building an AI travel agent. Moreover, see how you can ship your LLM features faster and with greater confidence.
+
+Resources: 
+Try Stax→https://goo.gle/45RU5Ek 
+Subscribe to Google for Developers → https://goo.gle/developers 
+
+#GoogleDeveloperNews 
+
+Speaker: Sara Wiltberger 
+Products Mentioned: Google AI, Gemma,",2025-08-27T17:00:40Z,PT4M13S,Google|developers|pr_pr: Google AI for Developers;|Purpose: Learn;|Video Type:DevByte;|gds:N/A;|ct: AIG;,en,10025,371,16
+4zW0iSkMHYM,UC_x5XG1OV2P6uZZ5FSM9Ttw,Google for Developers,How to create custom AI evaluators in Stax,"Move beyond common criteria for evaluating generative AI. This video will show you how to create custom evaluators in Stax to measure what's most important for your AI products. Learn how to automate evaluations with LLM-based autoraters, define the base LLM, craft prompts, and map rating categories to metrics, so you can scale your evaluations with confidence.
+
+Resources:
+
+Try Stax → https://goo.gle/3HMddv9 
+Subscribe to Google for Developers → https://goo.gle/developers 
+
+Products Mentioned: Google AI",2025-08-27T17:00:26Z,PT2M22S,Google|developers|pr_pr: Google AI for Developers;|Purpose: Learn;|Video Type:DevByte;|ct: AIG; ;|gds:Yes;,en,638,18,0
+H6ZXujE1qBA,UC_x5XG1OV2P6uZZ5FSM9Ttw,Google for Developers,"Behind the scenes of Google's state-of-the-art ""nano-banana"" image model","Join host Logan Kilpatrick in discussion with some of the minds behind Google's new state-of-the-art image model, Gemini 2.5 Flash. Product and research leads from the Gemini team break down the technology behind its key capabilities, including interleaved generation for complex edits and new approaches to achieving character consistency and pixel-perfect control. With Nicole Brichtova, Kaushik Shivakumar, Mostafa Dehghani and Robert Riachi. 
+
+Listen to this podcast: 
+Apple Podcasts → https://goo.gle/3Bm7QzQ 
+Spotify → https://goo.gle/3ZL3ADl 
+
+Chapters:
+0:37 - New model introduction
+1:21 -Demo: Image editing
+3:44 - Text rendering capabilities
+4:44 Beyond human preference evals
+6:44 - Text rendering as a proxy for quality
+8:38 - Positive transfer between modalities 
+11:25 - Demo: multi-turn, context aware image generation
+13:54 - Pixel-perfect editing and character consistency
+15:51 - Interleaved image generation 
+17:59 - Specialized vs. native models
+19:52 - Understanding nuanced prompts
+20:59 - User feedback shaping model development
+22:37 - Improvements in character consistency 
+24:17 - More natural looking images from team collaboration
+26:41 - What’s next for image generation models
+
+Subscribe to Google for Developers → https://goo.gle/developers 
+
+Speakers: Logan Kilpatrick, Nicole Brichtova, Kaushik Shivakumar, Mostafa Dehghani, Robert Riachi
+
+Products Mentioned:  Google AI, Gemini",2025-08-27T01:00:13Z,PT30M33S,Google|developers|pr_pr: Google AI for Developers;|Purpose: Learn;|Video Type:Podcast;|ct: AIG;;|gds:Yes;,en,21837,736,74
+UE-xe8y8EJ8,UC_x5XG1OV2P6uZZ5FSM9Ttw,Google for Developers,Upgrade your workflow with agentic coding,"Use AI to help you code more efficiently by trying out agentic, asynchronous coding!  
+
+Resources: 
+Build with Jules, your asynchronous coding agent → https://goo.gle/3HTt3El 
+
+Subscribe to Google for Developers → https://goo.gle/developers 
+
+Speaker: Itzak Hinojosa
+Products Mentioned: Google AI",2025-08-26T21:06:34Z,PT56S,Google|developers|pr_pr: Google for Developers;|Purpose: Learn;|Campaign: ;|type:G4D SV: Educational ;|ct: AIG;;|gds:Yes;,en,2419,53,4
+Bi-wi2q_Xog,UC_x5XG1OV2P6uZZ5FSM9Ttw,Google for Developers,Building with Gemini 2.5 Flash Image in Google AI Studio,"Explore the powerful new Gemini 2.5 Image Gen model and its integration with AI Studio in this in-depth live demonstration. See how ""vibe coding"" enables you to design and adapt image generation applets with ease, featuring precise edits, decor, and design capabilities. The session also includes an interactive Q&A and a look at upcoming AI Studio updates.
+
+Try coding with applets: ai.studio/apps 
+Follow AI Studio on X: @googleaistudio
+Subscribe to Google for Developers → https://goo.gle/developers 
+
+Speaker: Logan Kilpatrick, Ammaar Reshi, Kat Kampf
+Products Mentioned:  Google AI, Gemini",2025-08-26T17:50:11Z,PT48M26S,Google|developers,en,31653,1017,51

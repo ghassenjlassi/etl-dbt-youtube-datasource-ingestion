@@ -1,0 +1,9 @@
+version: 2
+models:
+  - name: mart_video_performance
+    description: "Per-video performance table ready for dashboards"
+    columns:
+      - name: video_id
+        tests: [not_null, unique]
+      - name: published_date
+        tests: [not_null]
